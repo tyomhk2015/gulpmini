@@ -1,2 +1,3 @@
 # gulpmini
-Adapting to gulp
+
+Learning and adapting to Gulp.
