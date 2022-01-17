@@ -1,0 +1,2 @@
+# gulpmini
+Adapting to gulp
