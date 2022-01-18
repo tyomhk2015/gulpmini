@@ -1,4 +1,24 @@
 @import "_reset";
 @import "_variables";
 
-footer { background-color: $red}
+body {
+  align-items: center;
+  display: flex;
+  background-color: #292929;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  > * + * {
+    margin-top: 12px;
+  }
+}
+
+h1 {
+  color: $white;
+  font-size: 24px;
+}
+footer {
+  padding: 8px 4px;
+  border-radius: 4px;
+  background-color: $red;
+}
