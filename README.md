@@ -12,4 +12,4 @@ Automated ...
 6. Transcompiling babel JS files to pure JS files.
 7. Deploying this project on github pages.
 
-<a href=""><img src="" /></a>
+<a href="https://tyomhk2015.github.io/gulpmini/"><img src="https://user-images.githubusercontent.com/35278730/149953796-9e5db5c4-f3ab-484a-a369-657f4296490e.jpg" /></a>
