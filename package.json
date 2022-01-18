@@ -7,17 +7,38 @@
   "license": "MIT",
   "scripts": {
     "dev": "gulp dev",
-    "build": "gulp build"
+    "build": "gulp build",
+    "imgOpt": "gulp imgOpt",
+    "deploy": "gulp deploy"
   },
   "dependencies": {
     "@babel/core": "^7.16.7",
     "@babel/preset-env": "^7.16.8",
     "@babel/register": "^7.16.9",
+    "babelify": "^10.0.0",
     "del": "^6.0.0",
-    "gulp": "^4.0.2"
+    "gift": "^0.10.2",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-bro": "^2.0.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-gh-pages": "^0.5.4",
+    "uglifyify": "^5.0.2"
   },
   "devDependencies": {
+    "gulp-image": "^6.3.1",
     "gulp-pug": "^5.0.0",
-    "gulp-webserver": "^0.9.1"
-  }
+    "gulp-sass": "^5.1.0",
+    "gulp-webserver": "^0.9.1",
+    "sass": "^1.48.0"
+  },
+  "type": "module",
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "maintained node versions"
+  ]
 }
